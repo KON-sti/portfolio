@@ -2931,6 +2931,9 @@ input, select, textarea {
 
 		.split.style1 > :nth-child(2n - 1) {
 			width: calc(66.66666% - 2.5em);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 
 		.split.style1 > :nth-child(2n) {
@@ -2938,7 +2941,7 @@ input, select, textarea {
 		}
 
 		.split.style1 .photo_1{
-			width: 100%;
+			width: 50%;
 			max-width: 250px;
 			margin-bottom: 30px;
 			margin-top: 20px;
@@ -2947,6 +2950,11 @@ input, select, textarea {
 		.photo_1>img{
 			display: block;
 			width: 100%;
+		}
+
+		.split.style1 .photo_text{
+			width: 50%;
+			margin-left: 1em;
 		}
 
 		@media screen and (max-width: 1680px) {
